@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm install pm2
-    - run: npm pm2
+    - run: npm run pm2
